@@ -1,0 +1,12 @@
+(A)
+
+1- mkdir .<directory name> = making a hidden directory 
+2- mv .<hidden directory> <hidden directory> = display the hidden directory 
+
+(B)
+
+- mkdir -p <dirctory name>/<dirctory name>/<dirctory name>/ = multiple nested directory
+
+(C)
+
+- echo "message" >> x.text = append text to file 
