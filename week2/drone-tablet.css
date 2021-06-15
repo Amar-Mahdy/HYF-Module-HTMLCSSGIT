@@ -1,0 +1,21 @@
+@media only screen and (max-width: 500px), (min-width: 800px) {
+
+
+  
+  .grid-floats > .grid-item{
+    max-width: 175px;
+  }
+  .grid-floats .grid-item-double {
+    max-width: 355px;
+  }
+
+  /* grid-flex */
+
+  .grid-flex > .grid-item{
+    max-width: 175px;
+  }
+  .grid-flex .grid-item-double {
+    max-width: 355px;
+  }
+  
+}

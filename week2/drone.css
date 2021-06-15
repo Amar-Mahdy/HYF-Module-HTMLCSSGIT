@@ -1,0 +1,165 @@
+
+
+
+html > body{
+    height: 100%;
+    box-sizing: border-box;
+   
+    
+}
+header > h1{
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+   
+    background-color: gray;
+    color: honeydew;
+   
+
+}
+main > section > h2{
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    
+}
+main > section > h2:hover{
+    color: gray;
+    transition:ease-in-out;
+    transform: scaleY(1);
+    
+}
+
+section{
+    
+    margin:0;
+    
+    overflow: hidden;
+    align-items: center;
+}
+
+ul > li{
+    list-style-type: none;
+}
+
+/*grid-floats ---------------------------------------------*/
+
+.grid-floats{
+    align-items: center;
+}
+
+.grid-floats > .grid-item{
+
+  max-width: 150px;
+  height: 250px;
+  
+  float: left;
+  margin:0 5px 5px 0;
+  text-align: center;
+  
+}
+.grid-floats > .grid-item:hover{
+    box-shadow: 2px 5px 10px 10px rgba(0, 0, 0, 0.199) ;
+    transition:ease-in-out;
+    transform: scaleY(1);
+}
+
+/*double*/
+.grid-floats .grid-item-double{
+
+    max-width: 305px;
+   
+
+}
+
+.grid-floats .grid-item-double img{
+
+    max-width:100%;
+    height: 150px;
+}
+
+/*double*/
+
+.grid-floats > .grid-item h3{
+  font-size:9px;
+ 
+}
+
+.grid-floats > .grid-item img{
+    max-width: 100%;
+}
+
+.grid-floats > .grid-item p{
+    font-size:7px;
+    padding:15px 5px 0 5px;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+
+/*---------------------------------------------------------------*/
+
+
+
+/*grid-flex*/
+
+.grid-flex{
+
+    display: flex;
+    height: 100%;
+    flex-flow: wrap;
+    
+   
+    
+}
+
+.grid-flex > .grid-item{
+    max-width: 150px;
+    text-align:center;
+    margin:0 5px 5px 0;
+   
+    
+    
+
+}
+.grid-flex > .grid-item:hover{
+    box-shadow: 2px 5px 10px 10px rgba(0, 0, 0, 0.199) ;
+    transition:ease-in-out;
+    transform: scaleY(1);
+}
+
+/*double*/
+
+.grid-flex .grid-item-double{
+    
+    max-width: 305px;
+   
+
+}
+
+.grid-flex .grid-item-double img{
+    max-width:100%;
+    height: 150px;
+}
+
+
+/*double*/
+
+
+.grid-flex > .grid-item h3{
+
+    font-size:9px;
+    
+
+}
+
+.grid-flex > .grid-item img{
+
+    max-width: 100%;
+}
+
+.grid-flex > .grid-item p{
+
+    font-size:7px;
+    padding:15px 5px 0 5px;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
