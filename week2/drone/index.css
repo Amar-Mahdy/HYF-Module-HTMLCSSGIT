@@ -166,7 +166,7 @@ ul > li{
 
 /* tablet view */
 
-@media only screen and (max-width: 600px), (min-width: 1024px) {
+@media only screen and (max-width: 600px), (min-width: 800px) {
 
 
   
@@ -190,7 +190,7 @@ ul > li{
 
   /* phone view */
 
-  @media screen and (max-width:600px) {
+  @media screen and (max-width:400px) {
 
    
 
