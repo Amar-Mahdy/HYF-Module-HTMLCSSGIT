@@ -89,7 +89,9 @@
   main section .grid-flex li:hover {
     
     box-shadow: 2px 5px 10px 10px rgba(0, 0, 0, 0.199) ;
-    transition: 0.2s;
+    transition: 0.8s;
+    color: gray;
+    
   }
 
   main section .grid-flex li:first-child {
