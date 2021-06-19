@@ -63,7 +63,7 @@
   main section .grid-floats li img {
     width: 80%;
     padding: 1em;
-      padding-top:20px;
+      padding-top:50px;
   }
   main section .grid-floats li:first-child {
     width: 480px;
@@ -102,7 +102,8 @@
   main section .grid-flex li img {
     width: 80%;
     padding: 1em;
-    padding-top:20px;
+       padding-top:50px;
+   
   }
 
   main section .grid-flex p{
