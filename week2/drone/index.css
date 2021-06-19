@@ -63,6 +63,7 @@
   main section .grid-floats li img {
     width: 80%;
     padding: 1em;
+      padding-top:20px;
   }
   main section .grid-floats li:first-child {
     width: 480px;
@@ -101,11 +102,13 @@
   main section .grid-flex li img {
     width: 80%;
     padding: 1em;
+    padding-top:20px;
   }
   u main section .grid-flex p {
     font-size: 14px;
     text-align: justify;
     padding: 1em;
+     padding-top:50px;
     font-family: 'Open Sans Condensed', sans-serif;
   }
   /*------------------------------tablet screen---------------------------------*/
