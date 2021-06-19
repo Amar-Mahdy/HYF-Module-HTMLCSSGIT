@@ -104,14 +104,17 @@
     padding: 1em;
     padding-top:20px;
   }
-  u main section .grid-flex p {
+
+  main section .grid-flex p{
     font-size: 14px;
     text-align: justify;
     padding: 1em;
      padding-top:50px;
     font-family: 'Open Sans Condensed', sans-serif;
   }
+
   /*------------------------------tablet screen---------------------------------*/
+
   @media only screen and (max-width: 1024px) {
     body {
       max-width: 1024px;
