@@ -37,7 +37,7 @@
     text-align: justify;
     padding: 1em;
     font-family: 'Open Sans Condensed', sans-serif;
-      padding-top:100px;
+      padding-top:50px;
   }
   .grid-floats::after {
     display: table;
