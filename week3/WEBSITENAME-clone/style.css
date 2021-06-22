@@ -45,7 +45,8 @@
 .panner-card {
     position: absolute;
     top: 10%;
-    left: 5%;
+    left: 10%;
+    
 }
 
 .card-link{
@@ -58,11 +59,20 @@
   transition: 0.5s;
 }
 .bordered-link {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid black;
+  width: 20rem;
 }
 
 .img-app{
     width: 150px;
+}
+.card-space{
+    padding: 20px 0 20px 50px;
+ 
+}
+.btn-dark{
+    height: 50px;
+    width: 10rem;
 }
 
 /* bussiness card */
